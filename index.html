@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgeCalculator</title>
+    <style>
+        body {
+            margin-top: 100px;
+        }
+
+        section {
+            border: 1px solid white;
+            width: 50%;
+            margin: auto;
+            text-align: center;
+            box-shadow: 0px 5px 25px gray;
+        }
+
+        h1 {
+            font-size: 50px;
+            margin: 5% 0%;
+        }
+
+        h3 {
+            font-size: 23px;
+            margin-bottom: 2%;
+        }
+
+        #input {
+            width: 65%;
+            height: 30px;
+            font-size: 20px;
+        }
+
+        #btn {
+            width: 27%;
+            height: 35px;
+            color: white;
+            background-color: rgb(37, 151, 196);
+            font-size: 18px;
+            border-radius: 6px;
+            border-color: rgb(37, 151, 196);
+            cursor: pointer;
+        }
+
+        #h2 {
+            font-size: 37px;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <h1>Age Calculator</h1>
+        <h3>Enter your date of birth</h3>
+        <input type="date" id="input"><br><br>
+        <button id="btn" onclick="AgeCalculator()">Calculate Age</button>
+        <h2 id="h2">Your age is 21 years old</h2>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
